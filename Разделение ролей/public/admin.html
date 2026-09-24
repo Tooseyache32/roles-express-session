@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Администратор</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-admin">
+  <main class="card">
+    <span class="badge badge-admin">admin</span>
+    <h1>Панель администратора</h1>
+    <p>Эта страница доступна только роли admin.</p>
+    <ul>
+      <li>Управление пользователями</li>
+      <li>Настройки системы</li>
+      <li>Просмотр логов</li>
+    </ul>
+    <form action="/logout" method="POST">
+      <button type="submit">Выйти</button>
+    </form>
+  </main>
+</body>
+</html>
